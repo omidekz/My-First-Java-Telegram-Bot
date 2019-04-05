@@ -1,4 +1,4 @@
-package Amoozesh;
+package short_tutorial;
 
 import org.telegram.telegrambots.ApiContextInitializer;
 import org.telegram.telegrambots.meta.TelegramBotsApi;
