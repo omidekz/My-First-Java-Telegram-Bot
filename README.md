@@ -5,4 +5,4 @@ you just need to creat a bot on [@botfather](https://t.me/botfather) and enter y
 
 +   # [Tutorial Files](..\short_tutorial)
 
-+   # [Short Linker Bot](src)
++   # [Link Shortener Bot](src)
