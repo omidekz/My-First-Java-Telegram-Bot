@@ -8,5 +8,10 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="org.telegram:telegrambots:4.1.2" level="project" />
+    <orderEntry type="library" name="com.mashape.unirest:unirest-java:1.4.8" level="project" />
+    <orderEntry type="library" name="org.apache.httpcomponents:httpclient:4.5.8" level="project" />
+    <orderEntry type="library" name="org.apache.httpcomponents:httpasyncclient:4.1.4" level="project" />
+    <orderEntry type="library" name="org.apache.httpcomponents:httpmime:4.5.8" level="project" />
+    <orderEntry type="library" name="org.json:json:20180813" level="project" />
   </component>
 </module>
