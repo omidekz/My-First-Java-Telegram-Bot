@@ -22,6 +22,7 @@ public class Test_Bot extends TelegramLongPollingBot { // each of your bots shou
     //      -getBotToken => get from botfather and copy-paste here
     @Override
     public void onUpdateReceived(Update update) {
+
         if(update.hasMessage()) {
             Message message = update.getMessage();
             String messageText = message.getText();
