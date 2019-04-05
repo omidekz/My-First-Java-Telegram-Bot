@@ -1,5 +1,3 @@
-# [Tutorial Files](src\short_tutorial)
-
 ## Telegram bot tutorial
 1. we need to sign up a bot in [Bot Father](https://t.me/botfather)
 2. next step is to download API from [This page](https://github.com/rubenlagus/TelegramBots)
