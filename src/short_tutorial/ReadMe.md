@@ -1,4 +1,4 @@
-# [Tutorial Files](src\short_tutorial)
+# [Tutorial Files](../short_tutorial)
 
 ## Telegram bot tutorial
 1. we need to sign up a bot in [Bot Father](https://t.me/botfather)
