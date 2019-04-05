@@ -7,8 +7,8 @@
     +   each bot has `Username` and `Token` from step=>`1.`
     +   Telegram Long Polling bot is an abstract class that we hae to override 3 methods
         -   `void` onUpdateReceived(Update update)
-        -   `String` getBotToken()**`return Username(without '@') of the bot`**
-        -   `String` getBotUsername() **`return token of the bot`**
+        -   `String` getBotToken() **`return token of the bot`**
+        -   `String` getBotUsername() **`return Username(without '@') of the bot`**
     +   Update object has important stuff such as **message,user,....**
     +   every chat in telegram has an id => that called chatId
     +   so for send message to a chat(PV or GP) you need the chat id
