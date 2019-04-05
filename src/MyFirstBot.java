@@ -44,9 +44,10 @@ public class MyFirstBot extends TelegramLongPollingBot {
                 System.out.println("Len != 2");
                 return;
             }
-
-            if (command[0].equals(COMMANDS._SHORT) // _SHORT = "/shortlink" for pv
-                    || command[0].toLowerCase().equals(COMMANDS.__SHORT)) { // __SHORT = _SHORT+"@hmchi_bot" for gp
+            command[0] = command[0].toLowerCase();
+            if (    command[0].equals(COMMANDS.SHORT)
+                    || command[0].equals(COMMANDS._SHORT) // _SHORT = "/shortlink" for pv
+                    || command[0].equals(COMMANDS.__SHORT)) { // __SHORT = _SHORT+"@hmchi_bot" for gp
 
                 String url = command[1];
                 Integer messageId = update.getMessage().getMessageId();
